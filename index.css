@@ -1,0 +1,187 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*---Navigation---*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-nav li{
+    padding: 0 40px;
+}
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+}
+
+
+#nav-bar ul li a:hover{
+    color: #FFD369 !important;
+}
+.navbar
+{
+    background: #015668;
+
+}
+.nav-bar-toggler
+{
+    border: none !important;
+}
+.nav-link
+{
+    color:#ffff !important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.carousel-caption
+{
+    top: 20%;
+    font-size: 50px;
+    transform: translate(0%);
+}
+.carousel-caption p
+{
+    top: 20%;
+    font-size: 30px;
+    transform: translate(0%);
+}
+/*---------------Location Section-------------------*/
+#joy
+{
+    background-image: url(./image/new-york-page.png);
+    height: 899px;
+    margin-top: -200px;
+}
+#joy img
+{
+    padding-top: 200px;
+    
+}
+#joy .carousel-caption
+{
+    top: 50%;
+    color: #FFD369;
+    text-align: justify;
+}
+/*---------------Benefits Section-------------------*/
+#benefits .sec-3 h1
+{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+#benefits .sec-3 p
+{
+    color: #fff;
+    text-align: center;
+    margin-top: -20px;
+}
+#benefits .kard img
+{
+    background-color:#015668;
+    height: 90px;
+    padding-top: 5%; 
+    padding-bottom: 5%;
+}
+#benefits .kard h5
+{
+    text-align: center;
+}
+#benefits .kard p
+{
+    text-align: center;
+}
+#benefits .kard .card
+{
+    box-shadow: -5px 10px 10px;
+}
+#contact .carousel-caption
+{
+    text-align: center;
+    align-items: center;
+}
+#contact-form
+{
+    min-height: 100vh;
+    background: url(./image/contact-mountain.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cont
+{
+    background: rgba(20, 29, 40, 0.6);
+    width: 40%;
+    color: #FFD369;
+    border-radius: 30px;
+}
+.head
+{
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    font-size: 2rem;
+}
+.name-wrapper,
+.email-wrapper
+{
+    padding: 1rem;
+    text-align: center;
+
+}
+.cont label{
+    font-size: 1rem;
+}
+.cont button{
+    background: #015668;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 4%;
+    padding-left: 4%;
+    margin-top: 2%;
+}
+/*--------FOOTER---------*/
+#footer {
+	background: #015668;
+	margin-top: -100px;
+	margin: 0;
+	padding: 20px 0 20px;
+	padding-top: -10px;
+}
+#footer div {
+	margin-left:20px;
+	overflow: hidden;
+	padding: 0;
+	width: 98%;
+}
+#footer div p {
+	color: #fff;
+	float: left;
+	line-height: 30px;
+	margin: 0 0 0 0px;
+	padding: 0;
+}
+#footer div ul {
+	display: block;
+	float: right;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	width: 456px;
+}
+#footer div ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	width: 44px;
+}
+
